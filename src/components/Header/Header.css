@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  /* background-color: blue; */
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  padding: 0 1rem;
+}
+.header-logo h2 {
+  margin: auto 2rem;
+  padding: 0.5rem 1rem;
+}
+.header-search {
+  display: flex;
+  width: 50%;
+  padding: 0.4rem 0;
+}
+.header-search-input {
+  width: 80%;
+}
+.header-search-icon {
+  background-color: burlywood;
+  height: 100%;
+  padding: 0.4rem;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-items {
+  margin: auto 1rem;
+  padding: 0 1rem;
+}
+.header-cart-count {
+  background-color: #fff;
+  font-size: 1.1rem;
+}
